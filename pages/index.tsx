@@ -1,13 +1,13 @@
-import MobileNav from "@/Components/MobileNav";
-import Nav from "@/Components/Nav";
-import Hero from "@/Components/Hero";
+import MobileNav from "@/components/MobileNav";
+import Nav from "@/components/Nav";
+import Hero from "@/components/Hero";
 import React, { useState } from "react";
-import Services from "@/Components/services";
-import Work from "@/Components/work";
-import FAQ from "@/Components/FAQ";
-import Contact from "@/Components/contact";
-import Footer from "@/Components/footer";
-import Header from "@/Components/header";
+import Services from "@/components/services";
+import Work from "@/components/work";
+import FAQ from "@/components/FAQ";
+import Contact from "@/components/contact";
+import Footer from "@/components/footer";
+import Header from "@/components/header";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);

@@ -11,7 +11,12 @@ const Header = () => {
     <header className='fixed z-50 w-full bg-secondary py-6 xl:py-8'>
       <div className='container mx-auto flex items-center justify-between'>
         {/* logo */}
-        <Link to='/' spy={true} smooth={true} className='cursor-pointer'>
+        <Link 
+          to="home" // Changed from '/'
+          spy={true} 
+          smooth={true} 
+          className='cursor-pointer'
+        >
           <Image src='/logo.png' height={54.53} width={41.35} alt='logo' />
         </Link>
 

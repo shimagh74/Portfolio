@@ -2,13 +2,12 @@
 
 import Image from 'next/image'
 import { animate, motion } from 'framer-motion'
-
 import {
   Accordion,
   AccordionContent,
   AccordionItem,
   AccordionTrigger
-} from '@/components/ui/accordion'
+} from '@/components/ui/accordion' 
 import FadeIn from '@/lib/variants'
 
 import { askedQuestions } from '@/lib/data'
@@ -108,7 +107,7 @@ const FAQ = () => {
                 className='w-full text-left'
                 key={qst.id}
               >
-                <AccordionItem value='item-1'>
+                <AccordionItem value={`item-${qst.id}`}>
                   <AccordionTrigger className='mx-2 text-xl font-medium hover:no-underline'>
                     {qst.qs}
                   </AccordionTrigger>
