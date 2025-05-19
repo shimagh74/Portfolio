@@ -7,7 +7,7 @@ import Social from "./social";
 
 const Hero = () => {
   return (
-    <section className="relative w-full h-screen bg-primary text-lighted overflow-hidden">
+    <section className="relative pt-24 w-full h-screen bg-primary text-lighted overflow-hidden">
       {/* پارتیکل‌ها */}
       <Particle />
 
@@ -34,11 +34,12 @@ const Hero = () => {
             <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8">
               <div className="flex gap-x-2">
                 <Link
-                  href="#"
+                  href="/resume/Shima_Resume.pdf"
                   target="_blank"
+                  download
                   className="flex items-center space-x-2 rounded-full border-2 border-blue px-6 py-3 font-medium uppercase text-blue transition-all hover:bg-blue/80 hover:text-lighted"
                 >
-                  <span className="text-sm">Download Cv</span>
+                  <span className="text-sm">Download CV</span>
                   <Download className="size-5" />
                 </Link>
               </div>
@@ -53,7 +54,7 @@ const Hero = () => {
             height={400}
             width={400}
             alt="profile"
-            className="inset-0 z-40 object-contain xl:translate-y-[3px] rounded-full"
+            className="inset-0 z-40 object-contain hidden xl:block xl:translate-y-[3px] rounded-full"
           />
         </div>
       </div>
