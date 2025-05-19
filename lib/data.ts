@@ -28,14 +28,14 @@ export const projectsData = [
 export const askedQuestions = [
   {
     id: 1,
-    qs: 'can you work on my project immediately?',
+    qs: 'Can you work on my project immediately?',
     answer:
       'Yes, if I am not currently engaged in other commitments, otherwise i will get the jobe done in deadline'
   },
   {
     id: 2,
-    qs: 'are you working hourly base or by projects ?',
-    answer: 'both of them it&apos; depends on client choice'
+    qs: 'Are you working hourly base or by projects ?',
+    answer: 'I’m flexible — I can work hourly or on a per-project basis, depending on what suits the client best.'
   },
   {
     id: 3,

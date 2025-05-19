@@ -16,19 +16,18 @@ const Services = () => {
             className='justify-betweenlg:mr-8 flex w-full flex-col lg:w-1/2'
           >
             <h1 className='pb-4 text-[40px] font-bold leading-[3rem] '>
-              What We do I help?
+              What can I help with?
             </h1>
             <p>
-              Contrary to popular belief, Lorem Ipsum is not simply random text.
-              It has roots in a piece of classical Latin literature from 45 BC,
-              making it over 2000 years old.
+              As a passionate Front-End Developer with over 5 years of experience, I specialize in building modern, responsive, and high-performance web applications using React, Next.js, and Tailwind CSS. Whether you are a startup or an established business, I can help transform your ideas into elegant and functional digital experiences.
+
             </p>
             <div className='flex justify-between space-x-4 py-8'>
               <div className='flex flex-col items-center justify-center'>
                 <p className='text-lg font-semibold uppercase'> Projects</p>
                 <p className='text-[36px] font-bold text-blue'>
                   {' '}
-                  + <AnimatedCounter from={0} to={45} />
+                  + <AnimatedCounter from={0} to={5} />
                 </p>
               </div>
               <div className='flex flex-col items-center justify-center'>
@@ -37,7 +36,7 @@ const Services = () => {
                   satisfied client
                 </p>
                 <p className='text-[36px] font-bold text-blue'>
-                  <AnimatedCounter from={0} to={25} />
+                  <AnimatedCounter from={0} to={5} />
                 </p>
               </div>
             </div>
@@ -56,8 +55,7 @@ const Services = () => {
                   Front-end development
                 </h2>
                 <p>
-                  Covert your Figma/XD design to full responsive web app with
-                  react/next js or angular or HTML with tailwind css
+                  Turn your design (Figma/XD) into a pixel-perfect, fully responsive web application using React or Next.js, styled with Tailwind CSS or Material UI. Performance, accessibility, and clean code guaranteed.
                 </p>
               </div>
             </div>
@@ -65,11 +63,10 @@ const Services = () => {
               <p className='text-6xl font-bold text-blue'>02</p>
               <div>
                 <h2 className='mb-2 text-2xl font-bold'>
-                  Back-end development
+                   UI Development & Optimization
                 </h2>
                 <p>
-                  buid your full web app with cutting-edge web development
-                  technologies
+                  Build fast, accessible, and visually appealing user interfaces using modern front-end technologies. I focus on clean code, smooth animations, and responsive layouts that deliver excellent user experience across all devices.
                 </p>
               </div>
             </div>
