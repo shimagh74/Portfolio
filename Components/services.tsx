@@ -5,7 +5,7 @@ import AnimatedCounter from '../lib/animatedCounter'
 
 const Services = () => {
   return (
-    <section id='services' className='z-30 -translate-y-1 bg-secondary'>
+    <section id='services' className='z-30 -translate-y-1 bg-secondary text-lighted'>
       <div className='container w-full py-[100px] lg:py-[200px]'>
         <div className='flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0'>
           <motion.div
@@ -15,8 +15,8 @@ const Services = () => {
             viewport={{ once: true, amount: 0.8 }}
             className='justify-betweenlg:mr-8 flex w-full flex-col lg:w-1/2'
           >
-            <h1 className='pb-4 text-[40px] font-bold leading-[3rem]'>
-              What We do i help?
+            <h1 className='pb-4 text-[40px] font-bold leading-[3rem] '>
+              What We do I help?
             </h1>
             <p>
               Contrary to popular belief, Lorem Ipsum is not simply random text.

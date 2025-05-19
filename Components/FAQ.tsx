@@ -87,20 +87,20 @@ export const tech = [
 
 const FAQ = () => {
   return (
-    <section className='bg-secondary pb-20 pt-36' id='FAQ'>
+    <section className='bg-secondary pb-20 pt-28 z-50' id='FAQ'>
       <div className='container sm:px-2'>
-        <div>
-          <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
+        <>
+          <h1 className='text-[40px] text-white font-bold uppercase leading-[3rem]'>
             Frequently <br /> <span className='under-line'>asked</span>
           </h1>
-        </div>
+        </>
         <motion.div
           variants={FadeIn('up', 0.2)}
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: true, amount: 0.8 }}
         >
-          <div className='mx-auto mt-12 flex max-w-3xl flex-col justify-center rounded-md bg-primary py-8 sm:px-2 xl:py-4'>
+          <div className='mx-auto mt-12 flex max-w-3xl flex-col justify-center rounded-md bg-primary py-8 sm:px-2 xl:py-4 text-lighted'>
             {askedQuestions.map(qst => (
               <Accordion
                 type='single'

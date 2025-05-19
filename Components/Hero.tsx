@@ -1,32 +1,64 @@
-import React from "react";
 import Particle from "./Particle";
 import TextEffect from "./TextEffect";
 import Image from "next/image";
+import { Download } from "lucide-react";
+import Link from "next/link";
+import Social from "./social";
 
 const Hero = () => {
   return (
-    <section >
+    <section className="relative w-full h-screen bg-primary text-lighted overflow-hidden">
+      {/* پارتیکل‌ها */}
+      <Particle />
 
-        <div className="p-8 bg-[url('/images/banner.jpg')] bg-cover bg-center">
-          <Particle />
-          <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
-            <div>
-              <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-                HI, I&aposm <span className="text-yellow-400">Shima!</span>
-              </h1>
-              <TextEffect />
+      {/* محتوا */}
+      <div className="relative z-10 container mx-auto h-full">
+        <div className="flex flex-col items-center justify-between gap-10 xl:flex-row xl:pt-8 h-full">
+          {/* متن */}
+          <div className="text-center xl:text-left">
+            <span>Hello I&apos;m</span>
+            <h1 className="text-[40px] font-bold capitalize leading-[3rem]">
+              Shima
+            </h1>
+            <TextEffect />
+            <div className="py-8 text-lighted">
+              <p>
+                A passionate React Developer based in Melbourne, I specialize in
+                building dynamic, user-friendly web applications using modern
+                frameworks and technologies. With expertise in React.js,
+                Next.js, Node.js, and Tailwind CSS, I deliver high-performance,
+                scalable solutions while ensuring seamless user experiences.
+                Let’s create something exceptional together!
+              </p>
             </div>
-            <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
-              <Image
-                src="/images/u1.jpg"
-                alt="user"
-                layout="fill"
-                className="object-cover rounded-full"
-              />
+            <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8">
+              <div className="flex gap-x-2">
+                <Link
+                  href="#"
+                  target="_blank"
+                  className="flex items-center space-x-2 rounded-full border-2 border-blue px-6 py-3 font-medium uppercase text-blue transition-all hover:bg-blue/80 hover:text-lighted"
+                >
+                  <span className="text-sm">Download Cv</span>
+                  <Download className="size-5" />
+                </Link>
+              </div>
+              <div className="flex py-4 xl:py-0">
+                <Social />
+              </div>
             </div>
           </div>
+          {/* تصویر */}
+          <Image
+            src="/images/mainPic.jpg"
+            height={400}
+            width={400}
+            alt="profile"
+            className="inset-0 z-40 object-contain xl:translate-y-[3px] rounded-full"
+          />
         </div>
+      </div>
     </section>
   );
 };
+
 export default Hero;

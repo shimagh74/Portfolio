@@ -7,8 +7,8 @@ import { motion } from 'framer-motion'
 import FadeIn from '@/lib/variants'
 const Contact = () => {
   return (
-    <section id='Contact' className='bg-[url(/contact/contact-bg.png)] py-28'>
-      <div className='px6 container flex flex-col justify-between py-12 text-lg md:flex-row'>
+    <section id='Contact' className='bg-[url(/contact/contact-bg.png)] py-10'>
+      <div className=' container flex flex-col justify-between text-lg md:flex-row'>
         <motion.div
           variants={FadeIn('right', 0.2)}
           initial='hidden'
@@ -16,7 +16,7 @@ const Contact = () => {
           viewport={{ once: true, amount: 0.8 }}
           className='mb-12 mr-6 flex items-center py-6'
         >
-          <h1 className='text-[40px] font-bold uppercase leading-[3rem]'>
+          <h1 className='text-[40px] font-bold uppercase leading-[3rem] text-lightedYellow'>
             let&apos;s work <br /> <span className='under-line'>together</span>
           </h1>
         </motion.div>
@@ -25,7 +25,7 @@ const Contact = () => {
           initial='hidden'
           whileInView={'show'}
           viewport={{ once: true, amount: 0.8 }}
-          className='flex max-w-3xl flex-1 flex-col items-start gap-y-8 rounded-md bg-secondary/80 p-10'
+          className='flex max-w-3xl flex-1 flex-col text-lighted items-start gap-y-8 rounded-md bg-secondary/80 p-10'
         >
           <input
             type='text'
@@ -41,6 +41,7 @@ const Contact = () => {
           />
           <textarea
             name='message'
+             placeholder='message '
             id='message'
             className='mb-12 w-full resize-none border-b border-white/25 bg-transparent py-12 outline-none transition-all placeholder:text-white/50 focus:border-blue/25'
           ></textarea>

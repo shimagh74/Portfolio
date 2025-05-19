@@ -46,6 +46,7 @@ const config = {
         primary: '#16213F',
         secondary: '#050D28',
         lighted: '#EFEFEF',
+        lightedYellow: '#F2E69D',
         blue: {
           DEFAULT: '#336DFF',
           hover: '#336DFF'

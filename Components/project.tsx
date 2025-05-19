@@ -29,7 +29,7 @@ export const Project = ({
         scale: scaleProgress,
         opacity: opacityProgress
       }}
-      className='flex flex-col items-center rounded-3xl bg-blue/10 p-4 xl:flex-row xl:justify-between'
+      className='flex flex-col items-center  rounded-3xl bg-blue/10 p-4 xl:flex-row xl:justify-between'
     >
       <div className='pb-[60px]'>
         <h5 className='text-sm font-medium capitalize'>{category}</h5>

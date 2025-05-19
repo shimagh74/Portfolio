@@ -1,28 +1,28 @@
 export const projectsData = [
   {
     id: 1,
-    image: '/projects/01.png',
+    image: '/projects/img2.png',
     category: 'Front-end',
-    title: 'Figma to react/nextjs',
+    title: 'Flooring Website',
     description:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested'
+      'Developed a scalable, interactive flooring services website using React.js, ensuring high performance and code maintainability.'
   },
   {
     id: 2,
-    image: '/projects/02.png',
-    category: 'Full-stack',
-    title: ' Github API',
+    image: '/projects/img1.png',
+    category: 'Front-end',
+    title: 'Aesthetics Website',
     description:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested'
+      'Built a fully responsive website with React, Tailwind CSS, and SASS, focusing on user engagement and streamlined performance.d'
   },
-  {
-    id: 3,
-    image: '/projects/03.png',
-    category: 'Full-stack',
-    title: ' Graphql By example',
-    description:
-      'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested'
-  }
+  // {
+  //   id: 3,
+  //   image: '/projects/03.png',
+  //   category: 'Full-stack',
+  //   title: ' Graphql By example',
+  //   description:
+  //     'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested'
+  // }
 ]
 
 export const askedQuestions = [
@@ -30,7 +30,7 @@ export const askedQuestions = [
     id: 1,
     qs: 'can you work on my project immediately?',
     answer:
-      'Yes, if i am not currently engaged in other commitments, otherwise i will get the jobe done in deadline'
+      'Yes, if I am not currently engaged in other commitments, otherwise i will get the jobe done in deadline'
   },
   {
     id: 2,
@@ -40,6 +40,6 @@ export const askedQuestions = [
   {
     id: 3,
     qs: 'What are technologies you use in your stack?',
-    answer: 'i am using latest in cutting edge technology conerning MERN Stack'
+    answer: 'I am using latest in cutting edge technology conerning MERN Stack'
   }
 ]

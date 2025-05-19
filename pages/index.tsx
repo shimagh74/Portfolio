@@ -6,7 +6,8 @@ import Services from "@/Components/services";
 import Work from "@/Components/work";
 import FAQ from "@/Components/FAQ";
 import Contact from "@/Components/contact";
-import Footer from "@/Components/Footer";
+import Footer from "@/Components/footer";
+import Header from "@/Components/header";
 
 const HomePage = () => {
   const [nav, setNav] = useState(false);
@@ -15,16 +16,15 @@ const HomePage = () => {
 
   return (
     <div className="overflow-x-hidden">
-      <div>
-        <MobileNav nav={nav} closeNav={closeNav} />
-        <Nav openNav={openNav} />
+   
+        <Header/>
         <Hero />
         <Services />
         <Work />
         <FAQ />
-        <Contact />
+        <Contact /> 
         <Footer />
-      </div>
+
     </div>
   );
 };
