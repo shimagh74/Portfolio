@@ -2,7 +2,7 @@
 import { Menu } from 'lucide-react'
 import Image from 'next/image'
 import { Link } from 'react-scroll'
-import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet'
+import { Sheet, SheetContent, SheetTrigger } from '@/app/components/ui/sheet'
 import { useState } from 'react'
 
 export const menu = [

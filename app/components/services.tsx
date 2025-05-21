@@ -13,7 +13,7 @@ const Services = () => {
             initial='hidden'
             whileInView={'show'}
             viewport={{ once: true, amount: 0.8 }}
-            className='justify-betweenlg:mr-8 flex w-full flex-col lg:w-1/2'
+            className='justify-between lg:mr-8 flex w-full flex-col md:w-3/4'
           >
             <h1 className='pb-4 text-[40px] font-bold leading-[3rem] '>
               What can I help with?
@@ -22,7 +22,7 @@ const Services = () => {
               As a passionate Front-End Developer with over 5 years of experience, I specialize in building modern, responsive, and high-performance web applications using React, Next.js, and Tailwind CSS. Whether you are a startup or an established business, I can help transform your ideas into elegant and functional digital experiences.
 
             </p>
-            <div className='flex justify-between space-x-4 py-8'>
+            <div className='flex justify-between space-x-4 py-8 '>
               <div className='flex flex-col items-center justify-center'>
                 <p className='text-lg font-semibold uppercase'> Projects</p>
                 <p className='text-[36px] font-bold text-blue'>

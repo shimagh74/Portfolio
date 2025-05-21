@@ -1,4 +1,4 @@
-import { projectsData } from '@/lib/data'
+import { projectsData } from '@/app/lib/data'
 import React from 'react'
 import { Project } from './project'
 

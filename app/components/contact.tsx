@@ -4,10 +4,10 @@ import { Send } from 'lucide-react'
 import React from 'react'
 import { motion } from 'framer-motion'
 
-import FadeIn from '@/lib/variants'
+import FadeIn from '@/app/lib/variants'
 const Contact = () => {
   return (
-    <section id="Contact" className='bg-[url(/contact/contact-bg.png)] py-10'>
+    <section id="Contact" className='bg-[url(/images/contact-bg.png)] py-10'>
       <div className=' container flex flex-col justify-between text-lg md:flex-row'>
         <motion.div
           variants={FadeIn('right', 0.2)}

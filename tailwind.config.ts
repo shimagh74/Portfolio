@@ -1,32 +1,9 @@
-// /** @type {import('tailwindcss').Config} */
-// module.exports = {
-//   content: [
-//     "./app/**/*.{js,ts,jsx,tsx,mdx}",
-//     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
-//     "./components/**/*.{js,ts,jsx,tsx,mdx}",
- 
-//     // Or if using `src` directory:
-//     "./src/**/*.{js,ts,jsx,tsx,mdx}",
-//   ],
-//   theme: {
-//     extend: {
-//       fontFamily :{
-//         primary:["Poppins"]
-//       },
-//     },
-//   },
-//   plugins: [],
-// }
-
 import type { Config } from 'tailwindcss'
 
 const config = {
   darkMode: ['class'],
   content: [
-    './pages/**/*.{ts,tsx}',
-    './components/**/*.{ts,tsx}',
-    './app/**/*.{ts,tsx}',
-    './src/**/*.{ts,tsx}'
+    './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   prefix: '',
   theme: {
@@ -49,7 +26,7 @@ const config = {
         lightedYellow: '#F2E69D',
         blue: {
           DEFAULT: '#336DFF',
-          hover: '#336DFF'
+          hover: '#4d80ff' 
         }
       },
       keyframes: {

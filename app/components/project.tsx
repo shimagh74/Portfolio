@@ -3,7 +3,7 @@ import { useRef } from 'react'
 import Image from 'next/image'
 import Link from 'next/link'
 
-import { projectsData } from '@/lib/data'
+import { projectsData } from '@/app/lib/data'
 import { useScroll, useTransform, motion } from 'framer-motion'
 
 type ProjectProps = (typeof projectsData)[number]

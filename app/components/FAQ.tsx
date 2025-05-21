@@ -7,10 +7,10 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger
-} from '@/components/ui/accordion' 
-import FadeIn from '@/lib/variants'
+} from '@/app/components/ui/accordion' 
+import FadeIn from '@/app/lib/variants'
 
-import { askedQuestions } from '@/lib/data'
+import { askedQuestions } from '@/app/lib/data'
 
 const slideVariant = {
   initial: {
