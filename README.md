@@ -1,40 +1,102 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio – Next.js 14 & TypeScript
 
-## Getting Started
+A modern, responsive portfolio website built with [Next.js 14](https://nextjs.org/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS](https://tailwindcss.com/), and [Framer Motion](https://www.framer.com/motion/).  
+Showcases your projects, services, and contact information with smooth animations and a clean UI.
 
-First, run the development server:
+---
+
+## 🚀 Getting Started
+
+### 1. Install dependencies
+
+```bash
+npm install
+# or
+yarn install
+```
+
+### 2. Run the development server
 
 ```bash
 npm run dev
 # or
 yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser to view the site.
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+---
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+## 📁 Project Structure
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+```
+app/
+  components/      # Reusable UI and page components
+  lib/             # Utility functions and data
+  globals.css      # Global styles (Tailwind + custom)
+  layout.tsx       # Root layout
+  page.tsx         # Home page
+public/
+  images/          # Images and assets
+  resume/          # Your downloadable CV
+tailwind.config.ts # Tailwind CSS configuration
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## ✨ Features
 
-To learn more about Next.js, take a look at the following resources:
+- **App Router** (Next.js 14)
+- **TypeScript** for type safety
+- **Tailwind CSS** for rapid styling
+- **Framer Motion** for smooth animations
+- **Radix UI** for accessible UI primitives (Accordion, Dialog)
+- **Responsive design** (mobile-first)
+- **Customizable sections**: Hero, Services, Projects, FAQ, Contact
+- **Downloadable CV** button
+- **Animated counters**
+- **Custom scrollbars**
+- **Social links**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Customization
 
-## Deploy on Vercel
+- **Projects:** Edit `app/lib/data.ts` to add your own projects.
+- **FAQ:** Edit `app/lib/data.ts` for your own questions/answers.
+- **Hero section:** Update `app/components/Hero.tsx` with your info.
+- **Resume:** Place your PDF in `public/resume/` and update the link in `Hero.tsx`.
+- **Branding:** Replace images in `public/images/` and update logo as needed.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📦 Dependencies
+
+- [Next.js](https://nextjs.org/)
+- [React](https://react.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [Radix UI](https://www.radix-ui.com/)
+- [Lucide React](https://lucide.dev/)
+- [React Scroll](https://www.npmjs.com/package/react-scroll)
+- [React Icons](https://react-icons.github.io/react-icons/)
+
+---
+
+## 📝 License
+
+This project is open source and available under the [MIT License](LICENSE).
+
+---
+
+## 🙏 Acknowledgements
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Tailwind CSS Documentation](https://tailwindcss.com/docs)
+- [Framer Motion Docs](https://www.framer.com/motion/)
+- [Radix UI Primitives](https://www.radix-ui.com/primitives)
+
+---
+
+> Built with ❤️ by Shima
