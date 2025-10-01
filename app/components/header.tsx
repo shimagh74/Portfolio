@@ -12,7 +12,7 @@ const Header = () => {
       <div className='container mx-auto flex items-center justify-between'>
         {/* logo */}
         <Link 
-          to="home" // Changed from '/'
+          to="home" 
           spy={true} 
           smooth={true} 
           className='cursor-pointer'

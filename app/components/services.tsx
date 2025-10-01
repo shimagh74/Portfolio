@@ -6,7 +6,7 @@ import AnimatedCounter from '../lib/animatedCounter'
 const Services = () => {
   return (
     <section id='services' className='z-30 -translate-y-1 bg-secondary text-lighted'>
-      <div className='container w-full py-[30px] lg:py-[80px]'>
+      <div className='container w-full py-[30px] lg:py-[100px]'>
         <div className='flex flex-col justify-between gap-12 px-2 lg:flex-row lg:px-0'>
           <motion.div
             variants={FadeIn('right', 0.2)}

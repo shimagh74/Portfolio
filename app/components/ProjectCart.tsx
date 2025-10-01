@@ -8,7 +8,7 @@ import { useScroll, useTransform, motion } from 'framer-motion'
 
 type ProjectProps = (typeof projectsData)[number]
 
-export const Project = ({
+export const ProjectCart = ({
   title,
   image,
   category,

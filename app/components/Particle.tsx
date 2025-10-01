@@ -30,17 +30,17 @@ const Particle = () => {
   init={particlesInit}
   loaded={particlesLoaded}
   style={{
-    position: "absolute", // به موقعیت ثابت یا مطلق نیاز دارید
+    position: "absolute", 
     top: 0,
     left: 0,
     width: "100%",
-    height: "100%", // ارتفاع 100 درصد از والد
-    zIndex: -1, // قرار دادن پارتیکل‌ها در پس‌زمینه
+    height: "100%", 
+    zIndex: -1, 
   }}
   options={{
-    fullScreen: { enable: false }, // Disable full-screen mode
+    fullScreen: { enable: false }, 
     background: {
-      color: { value: "transparent" }, // Transparent background
+      color: { value: "transparent" }, 
     },
     fpsLimit: 120,
     interactivity: {

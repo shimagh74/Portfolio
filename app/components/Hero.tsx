@@ -8,13 +8,9 @@ import Social from "./social";
 const Hero = () => {
   return (
     <section className="relative pt-24 w-full h-screen bg-primary text-lighted overflow-hidden">
-      {/* پارتیکل‌ها */}
       <Particle />
-
-      {/* محتوا */}
       <div className="relative z-10 container mx-auto h-full">
         <div className="flex flex-col items-center justify-between gap-10 xl:flex-row xl:pt-8 h-full">
-          {/* متن */}
           <div className="text-center xl:text-left">
             <span>Hello I&apos;m</span>
             <h1 className="text-[40px] font-bold capitalize leading-[3rem]">
@@ -27,8 +23,10 @@ const Hero = () => {
                 building dynamic, user-friendly web applications using modern
                 frameworks and technologies. With expertise in React.js,
                 Next.js, Node.js, and Tailwind CSS, I deliver high-performance,
-                scalable solutions while ensuring seamless user experiences.
-                Let’s create something exceptional together!
+                scalable solutions while ensuring seamless user experiences. I
+                also hold an AWS certification, which strengthens my ability to
+                design and deploy cloud-ready applications. Let’s create
+                something exceptional together!
               </p>
             </div>
             <div className="mt-4 flex flex-col items-center justify-center xl:flex-row xl:justify-start xl:space-x-8">
@@ -48,7 +46,6 @@ const Hero = () => {
               </div>
             </div>
           </div>
-          {/* تصویر */}
           <Image
             src="/images/mainPic.jpg"
             height={400}

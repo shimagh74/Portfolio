@@ -1,12 +1,13 @@
-'use client'
+"use client";
 
 import Hero from "./components/Hero";
 import Services from "./components/services";
-import Work from "./components/work";
+import Certificates from "./components/Certificates";
 import FAQ from "./components/FAQ";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Header from "./components/header";
+import Projects from "./components/Projects";
 
 export default function Home() {
   return (
@@ -14,9 +15,10 @@ export default function Home() {
       <Header />
       <Hero />
       <Services />
-      <Work />
+      <Certificates />
+      <Projects />
       <FAQ />
-      <Contact /> 
+      <Contact />
       <Footer />
     </div>
   );

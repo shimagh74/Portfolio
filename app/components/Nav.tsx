@@ -6,8 +6,12 @@ const menu = [
     href: "services",
   },
   {
-    name: "Work",
-    href: "work",
+    name: "Certificates",
+    href: "certificates",
+  },
+  {
+    name: "Projects",
+    href: "projects",
   },
   {
     name: "FAQ",
