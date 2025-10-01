@@ -101,7 +101,7 @@ const Certificates = () => {
         {/* Call to Action */}
         <div className="text-center mt-12">
           <p className="text-lighted/80 mb-4">
-            I'm constantly learning and pursuing new certifications to stay current with industry best practices.
+            I&apos;m constantly learning and pursuing new certifications to stay current with industry best practices.
           </p>
           <div className="inline-flex items-center bg-blue/10 px-4 py-2 rounded-full">
             <Award className="w-4 h-4 text-blue mr-2" />
